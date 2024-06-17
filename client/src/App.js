@@ -19,7 +19,6 @@ function App() {
   return (
     <UserContextProvider>
       <div className=' min-h-screen bg-neutral-900 flex flex-col'>
-        <Navbar/>
         <Toaster position='top-center' toastOptions={{duration:2000}}/>
         <Routes>
           <Route

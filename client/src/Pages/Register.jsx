@@ -4,6 +4,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import {toast} from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
+import Navbar from '../Components/Navbar';
 
 
 function Register() {
@@ -35,6 +36,8 @@ function Register() {
   }
 
   return (
+    <>
+    <Navbar/>
     <form className='flex flex-col m-auto bg-neutral-900  w-96 h-[495px] shadow-md shadow-black'action="" onSubmit={registerUser}>
     <div>
       <div className='flex flex-col items-center justify-center'>
@@ -56,6 +59,7 @@ function Register() {
 
     </div>
     </form>
+    </>
   )
 }
 

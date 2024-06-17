@@ -1,8 +1,12 @@
 import React from 'react'
 import Carousel from '../Components/Carousel';
+import Navbar from '../Components/Navbar';
+
 
 function Home() {
   return (
+    <>
+    <Navbar/>
     <div className='flex flex-row ' >
           <div className='flex flex-row items-center justify-center  bg-inherit h-96 w-2/4 mt-20 rounded-xl'>
             <div className='flex flex-col'>
@@ -12,6 +16,7 @@ function Home() {
           </div>
           <Carousel/>
     </div>
+    </>
   )
 }
 
