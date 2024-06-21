@@ -15,11 +15,11 @@ function Carousel() {
       };
   return (
     
-    <div className='w-2/5 m-auto'>
+    <div className='flex items-center justify-center'>
         <div className='mt-20  w-[350px]'>
         <Slider {...settings}>
         {data.map((d) =>(
-            <div key={data.id} className='bg-zinc-950 bg-opacity-30 h-96 rounded-xl flex flex-col items-center justify-center w-[350px] border border-neutral-800'>
+            <div key={data.id} className='bg-neutral-50 bg-opacity-10 h-96 rounded-xl flex flex-col items-center justify-center w-[350px] border border-zinc-600'>
                 <div className='flex flex-col items-center'>
                     <img className='rounded-xl w-72 py-10'src={d.img} alt="" />
                 </div>
