@@ -5,8 +5,8 @@
 - **Frontend**: Built with React.js, providing a responsive and intuitive user interface.
 - **Backend**: Powered by Express, ensuring robust and efficient server-side operations.
 - **APIs Integrated**:
-  - **Alpha Vantage API**: Fetches detailed financial data and news sentiment.
-  - **FinancialModellingPrep API**: Provides current market conditions and percentage changes across various sectors.
+  - **Alpha Vantage API**: Fetches detailed news sentiment and current market conditions .
+  - **FinancialModellingPrep API**: Provides percentage changes across various sectors.
 - **User Authentication**: Secured with MongoDB for database management and JWT tokens for secure user sessions.
 
 ## Technical Highlights
